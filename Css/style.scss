@@ -1,0 +1,49 @@
+*, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1.title{
+    text-align: center;
+    font-size: 35px;
+    color: rebeccapurple;
+    margin: 5rem 0;
+}
+
+.container{
+    max-width: fit-content;
+    margin: 0 auto;
+
+    div{
+        margin: 1rem 0;
+        h1{
+            margin-right: 1rem;
+            text-transform: uppercase;
+            color: #2c2c2c;
+        }
+
+        input{
+            font-size: 20px;
+            padding: .5rem 1rem;
+            width: 350px;
+            
+        }
+        ::placeholder{
+            text-transform: uppercase;
+        }
+    }
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+button{
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-size: 20px;
+    margin: 0 auto;
+}
